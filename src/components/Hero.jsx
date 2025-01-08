@@ -106,15 +106,17 @@ const Hero = () => {
                 onClick={handleMiniVdClick}
                 className="origin-center scale-50 opacity-0 transition-all duration-500 ease-in hover:scale-100 hover:opacity-100"
               >
-                <video
-                  ref={nextVdRef}
-                  src={getVideoSrc((currentIndex % totalVideos) + 1)}
-                  loop
-                  muted
-                  id="current-video"
-                  className="size-64 origin-center scale-150 object-cover object-center"
-                  onLoadedData={handleVideoLoad}
-                />
+                <a href={getVideoSrc((currentIndex % totalVideos) + 1)} target="https://res.cloudinary.com/dxmmc7mcg/video/upload/v1732662198/Untitled-2_vzlnz5.mp4" rel="noopener noreferrer">
+                  <video
+                    ref={nextVdRef}
+                    src={getVideoSrc((currentIndex % totalVideos) + 1)}
+                    loop
+                    muted
+                    id="current-video"
+                    className="size-64 origin-center scale-150 object-cover object-center"
+                    onLoadedData={handleVideoLoad}
+                  />
+                </a>
               </div>
             </VideoPreview>
           </div>
