@@ -49,9 +49,11 @@ const About = () => {
 
       <div className="h-dvh w-screen" id="clip">
         <div className="mask-clip-path about-image">
-          <video src="https://res.cloudinary.com/dxmmc7mcg/video/upload/v1732658885/bandicam_2024-05-11_01-53-07-831_lmygso.mp4" controls>
-            Your browser does not support the video tag.
-          </video>
+          <img
+            src="img/about.webp"
+            alt="Background"
+            className="absolute left-0 top-0 size-full object-cover"
+          />
         </div>
       </div>
     </div>
