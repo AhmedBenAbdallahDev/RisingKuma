@@ -103,12 +103,10 @@ const Features = () => (
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
-          Into the Metagame Layer
+          Studio Capabilities
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          Immerse yourself in a rich and ever-expanding universe where a vibrant
-          array of products converge into an interconnected overlay experience
-          on your world.
+          We build cinematic trailers, playable prototypes, and cross-platform systems that scale with your vision.
         </p>
       </div>
 
@@ -120,7 +118,7 @@ const Features = () => (
               radia<b>n</b>t
             </>
           }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+          description="A cross-platform metagame app, turning player actions into meaningful progression."
           isComingSoon
         />
       </BentoTilt>
@@ -134,7 +132,7 @@ const Features = () => (
                 zig<b>m</b>a
               </>
             }
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+            description="An anime and gaming-inspired IP with expansion-ready design."
             isComingSoon
           />
         </BentoTilt>
@@ -147,7 +145,7 @@ const Features = () => (
                 n<b>e</b>xus
               </>
             }
-            description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+            description="A social hub prototype designed for community-driven play."
             isComingSoon
           />
         </BentoTilt>
@@ -160,7 +158,7 @@ const Features = () => (
                 az<b>u</b>l
               </>
             }
-            description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+            description="An AI-driven assistant to enhance player experience and retention."
             isComingSoon
           />
         </BentoTilt>
